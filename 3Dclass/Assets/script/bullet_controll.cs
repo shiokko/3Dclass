@@ -33,6 +33,7 @@ public class bullet_controll : MonoBehaviour
         if (other.transform.tag == "target")
         {
             Destroy(other.gameObject);
+            Destroy(gameObject);
         }
     }
 }
